@@ -26,7 +26,7 @@ git flow feature finish 12345 obs: finish
 - delete branch feature/12345
 - checkout 'develop'
 
-# 3) publicando em produção
+# 3) release to production
 branch 'develop':
 git flow release start 1.0
 - created based on develop
